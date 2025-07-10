@@ -1,0 +1,20 @@
+2025/02/24-12:09:55.205 a607 Creating DB /private/var/folders/8m/3wchj4jn053dnng1tdj88x_h0000gn/T/flutter_tools.RBLu10/flutter_tools_chrome_device.oJxq1Z/Default/IndexedDB/http_localhost_54321.indexeddb.leveldb since it was missing.
+2025/02/24-12:09:55.207 a607 Reusing MANIFEST /private/var/folders/8m/3wchj4jn053dnng1tdj88x_h0000gn/T/flutter_tools.RBLu10/flutter_tools_chrome_device.oJxq1Z/Default/IndexedDB/http_localhost_54321.indexeddb.leveldb/MANIFEST-000001
+2025/02/24-12:09:55.209 f703 Level-0 table #5: started
+2025/02/24-12:09:55.210 f703 Level-0 table #5: 665 bytes OK
+2025/02/24-12:09:55.211 f703 Delete type=0 #3
+2025/02/24-12:09:55.211 a607 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/24-12:17:38.724 a607 Level-0 table #7: started
+2025/02/24-12:17:38.743 a607 Level-0 table #7: 5956 bytes OK
+2025/02/24-12:17:38.744 a607 Delete type=0 #4
+2025/02/24-12:17:38.744 a607 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/24-12:19:26.968 f703 Level-0 table #9: started
+2025/02/24-12:19:26.982 f703 Level-0 table #9: 652 bytes OK
+2025/02/24-12:19:26.985 f703 Delete type=0 #6
+2025/02/24-12:19:26.986 a607 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 237 : 1
+2025/02/24-12:19:26.986 a607 Compacting 1@0 + 1@1 files
+2025/02/24-12:19:26.987 a607 Generated table #10@0: 118 keys, 3334 bytes
+2025/02/24-12:19:26.987 a607 Compacted 1@0 + 1@1 files => 3334 bytes
+2025/02/24-12:19:26.988 a607 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/02/24-12:19:26.988 a607 Delete type=2 #9
+2025/02/24-12:19:26.988 a607 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 237 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
