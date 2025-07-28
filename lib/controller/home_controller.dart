@@ -468,6 +468,8 @@ class HomeController extends ControllerMVC{
     apiService.deleteProduct(productId).then((value) {
       Loader.hide();
       commonModel = value;
+      filterGroceryProductList.clear();
+      groceryProductList.clear();
       getProduct(context);
       notifyListeners();
     }).catchError((e) {
@@ -999,10 +1001,10 @@ class HomeController extends ControllerMVC{
                                       children: [
                                         Row(
                                           children: [
-                                            vendorType == "2" ? Image.asset(
-                                              "assets/images/non_veg.png",
-                                              height: 14,
-                                            ):Container(),
+                                            // vendorType == "2" ? Image.asset(
+                                            //   "assets/images/non_veg.png",
+                                            //   height: 14,
+                                            // ):Container(),
                                             SizedBox(
                                               width: 2,
                                             ),
@@ -1291,6 +1293,9 @@ class HomeController extends ControllerMVC{
     Loader.show();
     apiService.onReady(saleCode).then((value) {
       Loader.hide();
+      if(value.success! == false){
+        ValidationUtils.showAppToast(value.message!);
+      }
       Navigator.pop(context);
       notifyListeners();
     }).catchError((e) {

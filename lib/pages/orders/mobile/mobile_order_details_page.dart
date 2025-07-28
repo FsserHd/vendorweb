@@ -135,8 +135,8 @@ class _MobileOrderDetailsPageState extends StateMVC<MobileOrderDetailsPage> {
                                               children: [
                                                 Row(
                                                   children: [
-                                                    Image.asset("assets/images/non_veg.png",height: 20,),
-                                                    SizedBox(width: 4,),
+                                                    // Image.asset("assets/images/non_veg.png",height: 20,),
+                                                    // SizedBox(width: 4,),
                                                     Image.network(productSet.image!,height: 50,width: 50, fit: BoxFit.fill,),
                                                     SizedBox(width: 4,),
                                                     Column(
